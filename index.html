@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIRLUX Detergent</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    color:#fff;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.4);
+    z-index:1000;
+}
+
+nav img{
+    height:50px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero{
+    height:100vh;
+    background: linear-gradient(135deg,#1e3c72 50%, #ff6a00 50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+    padding-top:100px;
+}
+
+.hero-content h1{
+    font-size:55px;
+    letter-spacing:3px;
+}
+
+.hero-content p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    background:#fff;
+    color:#1e3c72;
+    padding:12px 30px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#000;
+    color:#fff;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+.about{
+    background:#fff;
+    color:#333;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.about h2{
+    color:#1e3c72;
+    margin-bottom:20px;
+}
+
+/* ===== PRODUCT SECTION ===== */
+
+.products{
+    background:#f4f4f4;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.products h2{
+    color:#ff6a00;
+    margin-bottom:30px;
+}
+
+.product-box{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    display:inline-block;
+    max-width:400px;
+}
+
+.product-box img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* ===== CONTACT ===== */
+
+.contact{
+    background:#1e3c72;
+    padding:60px 10%;
+    text-align:center;
+}
+
+.contact input,
+.contact textarea{
+    width:100%;
+    max-width:500px;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+.contact button{
+    background:#ff6a00;
+    color:#fff;
+    padding:10px 25px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+
+@media(max-width:768px){
+    .hero-content h1{
+        font-size:35px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <!-- Logo Image -->
+    <img src="logo.jpg" alt="NIRLUX Logo">
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>NIRLUX</h1>
+        <p>Clean ! Stay In Touch</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2>About Nirlux</h2>
+    <p>
+        Nirlux provides powerful cleaning with extra lemon power.
+        Our dishwash bar removes tough grease and keeps utensils sparkling clean.
+    </p>
+</section>
+
+<!-- PRODUCT -->
+<section class="products" id="products">
+    <h2>Our Product</h2>
+
+    <div class="product-box">
+        <!-- Product Image -->
+        <img src="product.jpg" alt="Nirlux Dishwash Bar">
+
+        <h3>Dishwash Bar</h3>
+        <p>With Extra Lemon Power</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 NIRLUX Detergent | All Rights Reserved
+</footer>
+
+</body>
+</html>
