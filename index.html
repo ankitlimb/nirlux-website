@@ -8,8 +8,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
-body{background:#fafafa;color:#333;scroll-behavior:smooth;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#333;
+scroll-behavior:smooth;
+}
 
 /* NAVIGATION */
 nav{
@@ -117,6 +127,9 @@ font-size:14px;
 .reviews{background:#f5f7fa;}
 .review-box{margin-top:20px;font-style:italic;}
 
+/* ABOUT */
+#about{background:#f0f4ff;}
+
 /* CONTACT */
 .contact{
 background:#1e3c72;
@@ -163,8 +176,8 @@ animation:pulse 1.5s infinite;
 <li><a href="#home">Home</a></li>
 <li><a href="#products">Shop</a></li>
 <li><a href="#reviews">Reviews</a></li>
+<li><a href="#about">About Us</a></li>
 <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About US</a></li>
 </ul>
 </nav>
 
@@ -176,7 +189,6 @@ animation:pulse 1.5s infinite;
 </div>
 </section>
 
-<!-- IMAGE SLIDER -->
 <div class="slider">
 <img src="product1.jpg" class="active">
 <img src="product2.jpg">
@@ -186,7 +198,6 @@ animation:pulse 1.5s infinite;
 
 <section id="products">
 <h2 class="section-title">Our Products</h2>
-
 <div class="products">
 
 <div class="product-card">
@@ -221,82 +232,37 @@ animation:pulse 1.5s infinite;
 
 <section class="reviews" id="reviews">
 <h2 class="section-title">Customer Reviews</h2>
-<div class="review-box">
-⭐⭐⭐⭐⭐ <br>
-"Excellent cleaning performance and fragrance!" – Rajesh
-</div>
-<div class="review-box">
-⭐⭐⭐⭐⭐ <br>
-"Best detergent for daily family use." – Priya
-</div>
+<div class="review-box">⭐⭐⭐⭐⭐ <br>Excellent cleaning performance and fragrance! – Rajesh</div>
+<div class="review-box">⭐⭐⭐⭐⭐ <br>Best detergent for daily family use. – Priya</div>
 </section>
 
-<!-- CONTACT SECTION -->
+<section id="about">
+<h2 class="section-title">About NIRLUX</h2>
+<p>
+At NIRLUX, we believe that cleanliness is not just a routine — it is a lifestyle.
+We are a fast-growing manufacturer and supplier of high-quality detergent powder, liquid detergents, dishwash liquids, and home care cleaning products based in Gujarat, India.
+</p>
+<br>
+<h3>🌍 Our Mission</h3>
+<p>To provide affordable, high-performance cleaning products that enhance everyday life while maintaining global quality standards.</p>
+<br>
+<h3>🌟 Our Vision</h3>
+<p>To become a trusted national and international brand in the home care industry by delivering consistent quality and building long-term partnerships.</p>
+</section>
+
 <section class="contact" id="contact">
 <h2>Contact Us</h2>
-
 <p><strong>Nirlux Valsad</strong></p>
 <p>GIDC Gundlav, Valsad</p>
 <p>PIN 396035, India</p>
-
 <br>
-
-<p>
-📞 <a href="tel:+919157373030" style="color:#fff;text-decoration:none;">
-+91 9157373030
-</a>
-</p>
-
-<p>
-📧 <a href="mailto:nirluxindia@gmail.com" style="color:#fff;text-decoration:none;">
-nirluxindia@gmail.com
-</a>
-</p>
-
+<p>📞 <a href="tel:+919157373030" style="color:#fff;text-decoration:none;">+91 9157373030</a></p>
+<p>📧 <a href="mailto:nirluxindia@gmail.com" style="color:#fff;text-decoration:none;">nirluxindia@gmail.com</a></p>
 <br><br>
-
-<!-- GOOGLE MAP EMBED -->
-<iframe 
-src="https://www.google.com/maps?q=GIDC+Gundlav+Valsad+396035&output=embed"
-width="100%" 
-height="300" 
-style="border:0;border-radius:15px;"
-allowfullscreen="" 
-loading="lazy">
-</iframe>
-
+<iframe src="https://www.google.com/maps?q=GIDC+Gundlav+Valsad+396035&output=embed"
+width="100%" height="300" style="border:0;border-radius:15px;" loading="lazy"></iframe>
 </section>
-</section>
-<section id="about">
-<h2 class="section-title">About NIRLUX</h2>
 
-<p>
-At NIRLUX, we believe that cleanliness is not just a routine — it is a lifestyle. 
-We are a fast-growing manufacturer and supplier of high-quality detergent powder, liquid detergents, dishwash liquids, and home care cleaning products based in Gujarat, India.
-</p>
-
-<br>
-
-<p>
-Our advanced formulations are specially designed for top load and front load washing machines, ensuring excellent stain removal, long-lasting fragrance, and fabric care.
-</p>
-
-<br><br>
-
-<h3>🌍 Our Mission</h3>
-<p>
-To provide affordable, high-performance cleaning products that enhance everyday life while maintaining global quality standards.
-</p>
-
-<br>
-
-<h3>🌟 Our Vision</h3>
-<p>
-To become a trusted national and international brand in the home care industry by delivering consistent quality and building long-term partnerships.
-</p>
-
-</section>
-  
 <footer>
 © 2026 NIRLUX Detergent | Clean • Stay in Touch
 </footer>
@@ -317,6 +283,3 @@ slides[index].classList.add("active");
 
 </body>
 </html>
-
-
-
